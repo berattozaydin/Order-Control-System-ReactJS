@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.tp-menu-div .p-col .p-menubar {
+  padding: unset !important;
+}
+
+.tp-menu-div {
+  background-color: white; 
+  height: 40px;
+  margin: -0.6rem -0.6rem 0.1rem -0.6rem;
+}
+
+.tp-menu-div .p-menubar {
+  padding: 3px !important;
+  border: unset;
+}
+
+.tp-menu-div .p-menubar ul {
+  width: 60%;
+  margin-top: -2px;
+}
+.tp-menu-div .p-menuitem-link {
+  place-content: center;
+  padding: 0.45rem !important;
+}
+
+.tp-menu-div .p-col {
+  padding: 0px !important;
+}
+
+.tp-menu-div
+  .p-menubar
+  .p-menubar-root-list
+  > .p-menuitem
+  > .p-menuitem-link
+  .p-menuitem-text {
+  color: white !important;
+  font-size: 1.3rem !important;
+}
+
+.tp-menu-item .p-menuitem-link .p-submenu-icon {
+  color: white !important;
+}
+
+.tp-menu-div .p-menuitem-text {
+  color: white !important;
+  min-width: max-content;
+}
+
+.p-submenu-list {
+  background-color: #ffffff00; 
+  margin-top: 0.3rem !important;
+}
+.tp-menu-div .p-submenu-list {
+  width: 100% !important; 
+  padding: 0.1rem 0.1rem 0rem 0.1rem;
+}
+
+.tp-menu-item {
+  /* background-color: #1872B9; #3F51B5;  #0D6EFD;  #3F51B5; #465461; 3066A3   1F436B 465461 */
+  border-style: solid;
+  border-color: white;
+  flex: auto;
+  /*margin-top: -10px;*/
+  border-radius: 7px;
+  z-index: 1099;
+  min-width: 16%;
+  width: 16%;
+}
+
+.tp-menu-item, .tp-sub-item {
+  background-color: #1872B9 !important; /*  #1872B9 */
+  color: white !important;
+  border-bottom: 1px solid white;
+}
+
+.tp-menu-item:hover, .tp-sub-item:hover {
+  background-color: #D32F2F !important;
+}
+
+.tp-menu-div .p-menuitem-text {
+  font-size: 1.3rem !important;
+}
+
+.tp-menu-div .p-menuitem-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .tp-menu-div .p-menubar ul {
+    width: 100%;
+  }
+  .tp-menu-div .p-menuitem-link {
+    place-content: unset;
+  }
+
+  .tp-menu-div .p-submenu-list {
+    padding: 0.1rem 0.1rem 0rem 0.1rem !important;
+  }
+
+  .tp-menu-div .p-menubar .p-menubar-root-list {
+    padding: 0rem 0 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .tp-sub-menu {
+    /* min-width: 140px !important; */
+  }
+}
+
+.hide-button {
+  visibility: hidden;
+}
+body {
+  background-color: #c3c3c3;
+  overflow: auto !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
